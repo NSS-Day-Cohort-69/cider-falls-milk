@@ -4,40 +4,34 @@ const database = {
       id: 1,
       section: "Northern",
       attraction: "Lost Wolf Hiking Trail",
-      serviceID: [1, 5, 8],
     },
     {
       id: 2,
       section: "Northeast",
       attraction: "Chamfort River",
-      serviceID: [2, 3, 4],
     },
     {
       id: 3,
       section: "Northwest",
       attraction: "Lodge",
-      serviceID: [5, 6, 7, 9],
     },
     {
       id: 4,
       section: "Southern",
       attraction: "Campgrounds",
-      serviceID: [6, 7, 9],
     },
     {
       id: 5,
       section: "Southeast",
       attraction: "Pine Bluffs Trails",
-      serviceID: [1, 5, 10],
     },
     {
       id: 6,
       section: "Southwest",
       attraction: "Gander River",
-      serviceID: [1, 4],
     },
   ],
-  guest: [
+  guests: [
     {
       id: 1,
       firstName: "John",
@@ -166,4 +160,114 @@ const database = {
       name: "zip lines",
     },
   ],
+  parkAreaServices: [
+    {
+      id: 1,
+      parkID: 1,
+      serviceID: 1,
+    },
+    {
+      id: 2,
+      parkID: 1,
+      serviceID: 5,
+    },
+    {
+      id: 3,
+      parkID: 1,
+      serviceID: 8,
+    },
+    {
+      id: 4,
+      parkID: 2,
+      serviceID: 2,
+    },
+    {
+      id: 5,
+      parkID: 2,
+      serviceID: 3,
+    },
+    {
+      id: 6,
+      parkID: 2,
+      serviceID: 4,
+    },
+    {
+      id: 7,
+      parkID: 3,
+      serviceID: 5,
+    },
+    {
+      id: 8,
+      parkID: 3,
+      serviceID: 6,
+    },
+    {
+      id: 9,
+      parkID: 3,
+      serviceID: 7,
+    },
+    {
+      id: 10,
+      parkID: 3,
+      serviceID: 9,
+    },
+    {
+      id: 11,
+      parkID: 4,
+      serviceID: 6,
+    },
+    {
+      id: 12,
+      parkID: 4,
+      serviceID: 7,
+    },
+    {
+      id: 13,
+      parkID: 4,
+      serviceID: 9,
+    },
+    {
+      id: 14,
+      parkID: 5,
+      serviceID: 1,
+    },
+    {
+      id: 15,
+      parkID: 5,
+      serviceID: 5,
+    },
+    {
+      id: 16,
+      parkID: 5,
+      serviceID: 10,
+    },
+    {
+      id: 17,
+      parkID: 6,
+      serviceID: 1,
+    },
+    {
+      id: 18,
+      parkID: 6,
+      serviceID: 4,
+    },
+  ],
+};
+
+export const getArea = () => {
+  return database.areas.map((area) => ({ ...area }));
+};
+
+export const getGuest = () => {
+  return database.guests.map((guest) => ({ ...guest }));
+};
+
+export const getService = () => {
+  return database.services.map((service) => ({ ...service }));
+};
+
+export const parkAreaService = () => {
+  return database.parkAreaServices.map((parkAreaService) => ({
+    ...parkAreaService,
+  }));
 };
