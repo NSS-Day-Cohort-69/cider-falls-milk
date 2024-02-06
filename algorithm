@@ -1,4 +1,4 @@
-main resources: guests, services, park areas, park area services
+/* main resources: guests, services, park areas, park area services
 
 properties:
   guests: id, name
@@ -16,4 +16,4 @@ guest.js: compile guest list html via imported database, return guestList html
 
 section.js: assembles html for each of the 6 park sections via imported database, returns mainAttraction and serviceList
 
-export createSectionHTML() from /section.js to 
+export createSectionHTML() from /section.js to */
