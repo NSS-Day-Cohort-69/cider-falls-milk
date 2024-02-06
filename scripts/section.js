@@ -1,11 +1,12 @@
-import { getArea, parkAreaService} from "./database"
+import { getArea, parkAreaService, getService } from "./database"
 
 
 
 export const createSectionHTML = () => {
-    let sectionHTML = `insert starter html here`
+    let sectionHTML = `<section class="areas"`
     let areas = getArea()
     let services = parkAreaService()
+    let tacos = getService()
 
     for (const area of areas) {
         let selectedServices = []
@@ -16,13 +17,13 @@ export const createSectionHTML = () => {
             }
         }
         for (const selectedService of selectedServices) {
-            for (const service of services){
-                if (selectedService.id === service.id) {
-                    sectionHTML += `${service.name}`
+            for (const taco of tacos){
+                if (selectedService.id === taco.id) {
+                    sectionHTML += `${taco.name}`
                 }
             }
         }
     }
-    sectionHTML += `closing html`
+    sectionHTML += `</section>`
     return sectionHTML
 }
