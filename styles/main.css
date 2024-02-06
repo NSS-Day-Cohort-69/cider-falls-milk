@@ -11,13 +11,15 @@ body {
 }
 
 .logo {
+    padding-left: 12px;
     width: 150px;
     height: 175px;
-    border-radius: 5px;
 }
 
-.areas {
-
+#container {
+    background-color: #f5f5c1;
+}
+.areas { 
 }
 
 .section {
@@ -25,8 +27,17 @@ body {
 }
 
 .guests {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    background-color: #f5f5c1 ;
+    border: solid 3px #1a451f;
+}
+
+.guest-list {
 
 }
 .end {
+    font-size: medium;
 
 }
