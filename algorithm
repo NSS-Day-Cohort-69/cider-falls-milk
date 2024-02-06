@@ -1,19 +1,19 @@
-main resources: guests, services, park areas, park area services
+// main resources: guests, services, park areas, park area services
 
-properties:
-  guests: id, name
-  services: id, type
-  park areas: id, name
-  park area services: ids (park area id & service id)
+// properties:
+//   guests: id, name
+//   services: id, type
+//   park areas: id, name
+//   park area services: ids (park area id & service id)
 
-modules needed: main.js, main.css, index.html, guests.js (function), sections.js (function w/ for loop), database.js (export functions)
+// modules needed: main.js, main.css, index.html, guests.js (function), sections.js (function w/ for loop), database.js (export functions)
 
-to do: modify database to include export functions and bridge table (see ERD); lay out html skeleton
+// to do: modify database to include export functions and bridge table (see ERD); lay out html skeleton
 
-main.js: assemble html variable by invoking the relevant functions
+// main.js: assemble html variable by invoking the relevant functions
 
-guest.js: compile guest list html via imported database, return guestList html
+// guest.js: compile guest list html via imported database, return guestList html
 
-section.js: assembles html for each of the 6 park sections via imported database, returns mainAttraction and serviceList
+// section.js: assembles html for each of the 6 park sections via imported database, returns mainAttraction and serviceList
 
-export createSectionHTML() from /section.js to 
+// export createSectionHTML() from /section.js to 
