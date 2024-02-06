@@ -1,5 +1,6 @@
 body {
     background-color: #97d19d;
+    border: #244f27 10px double;
     
 
 }
@@ -7,23 +8,27 @@ body {
 .title {   
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
+    font-size: xx-large;
     font-style: normal;
+    text-align: center;
 }
 
 .logo {
-    padding-left: 12px;
     width: 150px;
     height: 175px;
 }
 
 #container {
     background-color: #f5f5c1;
+    display: flex;
+    
 }
 .areas { 
+    
 }
 
 .section {
-
+    border: solid 4px goldenrod;
 }
 
 .guests {
@@ -31,13 +36,15 @@ body {
     justify-content: flex-end;
     width: 30%;
     background-color: #f5f5c1 ;
-    border: solid 3px #1a451f;
-}
+    border: solid salmon 4px;
+ }
 
 .guest-list {
+    list-style: none;
 
 }
 .end {
+    text-align: center;
     font-size: medium;
 
 }
