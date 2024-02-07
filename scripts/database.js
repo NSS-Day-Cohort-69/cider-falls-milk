@@ -166,7 +166,7 @@ const database = {
     },
     {
       id: 8,
-      name: "Rock climbing",
+      name: "Rock Climbing",
     },
     {
       id: 9,

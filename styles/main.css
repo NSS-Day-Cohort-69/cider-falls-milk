@@ -12,6 +12,7 @@ body {
     color:  #f5f5c1;
     text-shadow: 2px 3px #1a451f;
     margin-bottom: 15px;
+    margin-left: 30px;
    
 }
 
@@ -27,10 +28,21 @@ body {
     display: flex;
 }
 
-.services {
-    border: 2px solid white;
-
+.serviceBlock {
+    margin-left: 20%;
 }
+.services {
+    display: flex;
+    height: 15%;
+    width: auto;
+    padding: 5px;
+    border: 2px solid saddlebrown;
+    border-radius: 5%;
+    background-image: linear-gradient(#fab9d2, #e0b660 , #719939) ;
+    font-size: large;
+}
+
+
 .areas {
     display: flex;
     flex-flow: row wrap;
@@ -63,18 +75,19 @@ body {
     justify-content: center;
     width: 25%;
     height: auto;
-    background-color: #f5f5c1;
+    background-image: linear-gradient(#39998f, #719939);
     border: solid 4px saddlebrown;;
     border-radius: 3%;
-    margin: 3px;
+    margin: 0% 10% 5% 25%;
 }
 
 .guest-list {
     list-style: none;
+    font-size: larger;
 }
 
 .guest-item:hover {
-    background-color: #5c8a5c;
+    background-color: #fdffba;
 }
 .end {
     font-size: medium;
