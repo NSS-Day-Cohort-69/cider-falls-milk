@@ -1,43 +1,66 @@
 body {
     background-color: #97d19d;
     
-
 }
 
 .title {   
     font-family: "Permanent Marker", cursive;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
+    font-size: xx-large;
 }
 
 .logo {
-    padding-left: 12px;
-    width: 150px;
-    height: 175px;
+    padding: 25px 50px 0px 50px;
+    width: 10%;
+    height: 15%;
 }
 
 #container {
+    
+    border: solid black 5px;
+    
+}
+
+.areas {     
+    display: flex;
+    height: auto;
+    width: 25%;
+
+}
+
+.areaWrapper { 
+    border: 2px solid saddlebrown;
+    margin: 5px 15px;
+    padding: 3px;
     background-color: #f5f5c1;
-}
-.areas { 
+    align-items: flex-start;
+    
+    
 }
 
-.section {
-
+.serviceList {
+    list-style: none;
+    
+    
 }
 
 .guests {
-    display: flex;
-    justify-content: flex-end;
-    width: 30%;
+    width: 25%;
+    height: auto;
     background-color: #f5f5c1 ;
-    border: solid 3px #1a451f;
+    border: solid 4px #1a451f;
+    margin: 3%;
 }
 
 .guest-list {
+    list-style: none;
 
 }
 .end {
     font-size: medium;
+    text-align: center;
+    border-top: solid salmon 5px;
 
 }
