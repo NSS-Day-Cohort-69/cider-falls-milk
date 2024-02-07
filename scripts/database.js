@@ -36,145 +36,145 @@ const database = {
       id: 1,
       firstName: "John",
       lastName: "Cena",
-      areaID: 1
+      areaID: 1,
     },
     {
       id: 2,
       firstName: "Trixie",
       lastName: "Mattell",
-      areaID: 1
+      areaID: 1,
     },
     {
       id: 3,
       firstName: "BeBe Zahara",
       lastName: "Benet",
-      areaID: 1
+      areaID: 1,
     },
     {
       id: 4,
       firstName: "Tyra",
       lastName: "Sanchez",
-      areaID: 1
+      areaID: 1,
     },
     {
       id: 5,
       firstName: "Raja",
       lastName: "Gemini",
-      areaID: 2
+      areaID: 2,
     },
     {
       id: 6,
       firstName: "Sharon",
       lastName: "Needles",
-      areaID: 2
+      areaID: 2,
     },
     {
       id: 7,
       firstName: "Jinkx",
       lastName: "Monsoon",
-      areaID: 2
+      areaID: 2,
     },
     {
       id: 8,
       firstName: "Bianca",
       lastName: "Del Rio",
-      areaID: 3
+      areaID: 3,
     },
     {
       id: 9,
       firstName: "Violet",
       lastName: "Chachki",
-      areaID: 3
+      areaID: 3,
     },
     {
       id: 10,
       firstName: "Bob",
       lastName: "the Drag Queen",
-      areaID: 4
+      areaID: 4,
     },
     {
       id: 11,
       firstName: "Sasha",
       lastName: "Velour",
-      areaID: 5
+      areaID: 5,
     },
     {
       id: 12,
       firstName: "Aquaria",
       lastName: "Johnson",
-      areaID: 6
+      areaID: 6,
     },
     {
       id: 13,
       firstName: "Yvie",
       lastName: "Oddly",
-      areaID: 5
+      areaID: 5,
     },
     {
       id: 14,
       firstName: "Jaida Essence",
       lastName: "Hall",
-      areaID: 4
+      areaID: 4,
     },
     {
       id: 15,
       firstName: "Symone",
       lastName: "Byles",
-      areaID: 1
+      areaID: 1,
     },
     {
       id: 16,
       firstName: "Willow",
       lastName: "Pill",
-      areaID: 2
+      areaID: 2,
     },
     {
       id: 17,
       firstName: "Sasha",
       lastName: "Colby",
-      areaID: 3
+      areaID: 3,
     },
   ],
   services: [
     {
       id: 1,
-      name: "hiking",
+      name: "Hiking",
     },
     {
       id: 2,
-      name: "rafting",
+      name: "Rafting",
     },
     {
       id: 3,
-      name: "canoeing",
+      name: "Canoeing",
     },
     {
       id: 4,
-      name: "fishing",
+      name: "Fishing",
     },
     {
       id: 5,
-      name: "picnicking",
+      name: "Picnicking",
     },
     {
       id: 6,
-      name: "lodging",
+      name: "Lodging",
     },
     {
       id: 7,
-      name: "parking",
+      name: "Parking",
     },
     {
       id: 8,
-      name: "rock climbing",
+      name: "Rock climbing",
     },
     {
       id: 9,
-      name: "information",
+      name: "Information",
     },
     {
       id: 10,
-      name: "zip lines",
+      name: "Zip Lines",
     },
   ],
   parkAreaServices: [

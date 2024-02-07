@@ -40,16 +40,20 @@ body {
 
 .areaWrapper { 
     flex-basis: 25%;
-    border: 2px solid saddlebrown;
+    border: 4px solid saddlebrown;
     border-radius: 5%;
     margin: 5px 15px;
     padding: 10px;
-    background-color: #f5f5c1;
+    background-image: linear-gradient(#5c8a5c,#f5f5c1);
     align-items: flex-start;  
+    font-size: x-large;
 }
 
+.serviceList:hover {
+    background-color: #cef0ce;
+}
 .serviceList {
-    list-style: none;
+    list-style: disc;
     
     
 }
@@ -59,14 +63,18 @@ body {
     justify-content: center;
     width: 25%;
     height: auto;
-    background-color: #f5f5c1 ;
-    border: solid 4px #1a451f;
+    background-color: #f5f5c1;
+    border: solid 4px saddlebrown;;
     border-radius: 3%;
     margin: 3px;
 }
 
 .guest-list {
     list-style: none;
+}
+
+.guest-item:hover {
+    background-color: #5c8a5c;
 }
 .end {
     font-size: medium;
