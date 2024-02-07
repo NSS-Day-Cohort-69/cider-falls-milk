@@ -43,7 +43,7 @@ export const createSectionHTML = () => {
             }
         }
         sectionHTML += `</ul>`
+        sectionHTML += `</section>`
     }
-    sectionHTML += `</section>`
     return sectionHTML
 }
