@@ -9,8 +9,10 @@ body {
     font-style: normal;
     text-align: center;
     font-size: xx-large;
-    color: #f5f5c1 ;
-    background-color: #1a451f;
+    color:  #f5f5c1;
+    text-shadow: 2px 3px #1a451f;
+    margin-bottom: 15px;
+   
 }
 
 .logo {
