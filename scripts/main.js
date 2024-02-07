@@ -10,8 +10,11 @@ const serviceHTML = createServiceHTML();
 const parentElement = document.querySelector("#container");
 
 const html = `
-    <section class="services">${serviceHTML}</section>
-    <section class="areas">${sectionHTML}</section>
+    <div class="serviceBlock">
+        <section class="services">${serviceHTML}</section>
+        <section class="areas">${sectionHTML}</section>
+    </div>
+    
     <aside class="guests">${guestHTML}</aside>
 `;
 

@@ -22,7 +22,7 @@ export const createSectionHTML = () => {
 
   for (const area of areas) {
     let selectedServices = [];
-    sectionHTML += `<section class="areaWrapper" data-type="area" data-id="${area.id}"> ${area.attraction} <br>`;
+    sectionHTML += `<section class="areaWrapper" data-type="area" data-id="${area.id}"> <b><u>${area.attraction}:</u></b><br>`;
     sectionHTML += `<ul class="serviceList">`;
     for (const service of services) {
       if (service.parkID === area.id) {

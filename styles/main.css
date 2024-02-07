@@ -1,5 +1,5 @@
 body {
-    background-color: #97d19d;
+    background-image: url("/assets/background.jpg");
     
 }
 
@@ -9,6 +9,11 @@ body {
     font-style: normal;
     text-align: center;
     font-size: xx-large;
+    color:  #f5f5c1;
+    text-shadow: 2px 3px #1a451f;
+    margin-bottom: 15px;
+    margin-left: 30px;
+   
 }
 
 .logo {
@@ -23,29 +28,44 @@ body {
     display: flex;
 }
 
+.serviceBlock {
+    margin-left: 20%;
+}
+.services {
+    display: flex;
+    height: 15%;
+    width: auto;
+    padding: 5px;
+    border: 2px solid saddlebrown;
+    border-radius: 5%;
+    background-image: linear-gradient(#fab9d2, #e0b660 , #719939) ;
+    font-size: large;
+}
+
+
 .areas {
     display: flex;
     flex-flow: row wrap;
     height: auto;
     width: 75%;
-    
-
 }
 
 .areaWrapper { 
     flex-basis: 25%;
-    border: 2px solid saddlebrown;
+    border: 4px solid saddlebrown;
     border-radius: 5%;
     margin: 5px 15px;
     padding: 10px;
-    background-color: #f5f5c1;
-    align-items: flex-start;
-    
-    
+    background-image: linear-gradient(#5c8a5c,#f5f5c1);
+    align-items: flex-start;  
+    font-size: x-large;
 }
 
+.serviceList:hover {
+    background-color: #cef0ce;
+}
 .serviceList {
-    list-style: none;
+    list-style: disc;
     
     
 }
@@ -55,18 +75,26 @@ body {
     justify-content: center;
     width: 25%;
     height: auto;
-    background-color: #f5f5c1 ;
-    border: solid 4px #1a451f;
+    background-image: linear-gradient(#39998f, #719939);
+    border: solid 4px saddlebrown;;
     border-radius: 3%;
-    margin: 3px;
+    margin: 0% 10% 5% 25%;
 }
 
 .guest-list {
     list-style: none;
+    font-size: larger;
+}
+
+.guest-item:hover {
+    background-color: #fdffba;
 }
 .end {
     font-size: medium;
     text-align: center;
     border-top: solid salmon 5px;
+    color: blanchedalmond;
+    background-color: #1a451f;
+    
 
 }
